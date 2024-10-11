@@ -5,7 +5,7 @@ public class program
     public static void Main(string[] args)
     {
         Console.WriteLine("What is your current percentage? (0-100)");
-        int percent = int.Parse(Console.ReadLine());
+        double percent = double.Parse(Console.ReadLine());
 
         if (percent >=0) {
             if (percent < 60) {
@@ -33,7 +33,7 @@ public class program
         }
         if (percent >= 90) {
             if (percent < 100) {
-            Console.WriteLine("Very buce!!");
+            Console.WriteLine("Very nice!!");
             Console.WriteLine("Letter grade: A");
             }
         }
